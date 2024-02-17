@@ -1,4 +1,4 @@
-import 'package:categorylist/appBar1.dart';
+import 'package:categorylist/appbar_section.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,7 +12,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: AppBar1(),
+      // صدا زدن ویجت بخش AppBar
+      home: AppBarSection(),
     );
   }
 }
